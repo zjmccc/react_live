@@ -10,6 +10,8 @@
     "@testing-library/user-event": "^7.1.2",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
+    "antd": "^4.1.3",
+    "axios": "^0.19.2",
     "babel-eslint": "10.1.0",
     "babel-jest": "^24.9.0",
     "babel-loader": "8.1.0",
@@ -139,6 +141,7 @@
     ]
   },
   "devDependencies": {
+    "node-sass": "^4.13.1",
     "react-lazyload-loader": "^1.0.0",
     "react-router-dom": "^5.1.2"
   }

@@ -1,9 +1,10 @@
 import React from 'react';
-export default class Login extends React.Component {
+
+export default class HomeIndex extends React.Component {
   render() {
     return (
       <div>
-        awsd
+        asdasdasd
       </div>
     )
   }

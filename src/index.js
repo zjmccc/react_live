@@ -4,10 +4,16 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import http from './api/http'
+import api from './api/index'
+
+import 'antd/dist/antd.css'
+
+React.$http = http
+React.$api = api
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
