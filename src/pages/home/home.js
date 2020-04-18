@@ -1,8 +1,6 @@
 import React from 'react';
 import { Layout, Menu, Breadcrumb } from 'antd';
 import { UserOutlined, PieChartOutlined, DesktopOutlined, TeamOutlined } from '@ant-design/icons';
-import { Route } from 'react-router-dom';
-import homeIndex from './homeIndex'
 
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
@@ -72,7 +70,6 @@ export default class Home extends React.Component {
                 minHeight: 280,
               }}
             >
-              {/* <Route path={`${this.props.match.url}/homeIndex`} component={homeIndex} /> */}
               {this.props.children}
             </Content>
           </Layout>

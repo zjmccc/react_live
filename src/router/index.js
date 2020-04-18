@@ -12,16 +12,12 @@ const BasicRoute = () => (
       <Route exact path="/" component={Index} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/add" component={Add} />
-      <Route exact path="/home" render={props => {
-        return (
-          <Home>
-            <Switch>
-              <Route exact path="/home/homeIndex" component={HomeIndex} />
-            </Switch>
-          </Home>
-        )
-      }
-      } />
+      <Route path="/home" component={() => (
+        <Home>
+          <Route exact path="/home/HomeIndex" component={HomeIndex} />
+        </Home>
+      )} >
+      </Route>
     </Switch>
   </BrowserRouter>
 );
