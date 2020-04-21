@@ -1,0 +1,42 @@
+.liveBriefIntroductionBox {
+  display: flex;
+  flex-wrap: wrap;
+
+  .liveBriefIntroductionItem {
+    width: 196px;
+    height: 180px;
+    margin: 0px 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+
+    img {
+      width: 196px;
+    }
+
+    .liveBriefIntroductionItemContent {
+      width: 100%;
+      padding: 10px;
+      display: flex;
+
+      .liveBriefIntroductionItemDetails {
+        margin-left: 10px;
+        flex: 1;
+
+        div {
+          line-height: 26px;
+          color: #888;
+          font-size: 12px;
+          width: 1;
+          display: flex;
+          justify-content: space-between;
+
+          span:first-of-type {
+            display: block;
+            flex: 1;
+          }
+        }
+      }
+    }
+  }
+}

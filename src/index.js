@@ -9,6 +9,8 @@ import api from './api/index'
 
 import 'antd/dist/antd.css'
 
+import './assets/css/animate.min.css'
+
 React.$http = http
 React.$api = api
 

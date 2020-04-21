@@ -2,7 +2,7 @@ import axios from "axios";
 import { message } from "antd";
 
 //默认地址
-axios.defaults.baseURL = 'http://127.0.0.1:7001/'
+axios.defaults.baseURL = 'http://localhost:7001/'
 
 // 请求前拦截
 axios.interceptors.request.use(
